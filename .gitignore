@@ -1,0 +1,34 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# IDE & Editor caches
+.vscode/
+.idea/
+.qodo/
+*.swp
+*.swo
+
+# Streamlit secrets (keep config.toml tracked)
+.streamlit/secrets.toml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Sample images (uncomment or leave ignored if you prefer not to commit images)
+samples/
